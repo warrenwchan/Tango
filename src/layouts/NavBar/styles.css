@@ -1,0 +1,35 @@
+.navBar {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+}
+
+.navContain {
+  margin: 0 auto;
+  max-width: 75vw;
+  padding: 1.45rem 1.0875rem;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLogo {
+  width: 125px;
+  margin-bottom: 0;
+}
+
+.navItems {
+  align-self: center;
+}
+
+.navItem {
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  margin: 25px;
+  letter-spacing: 2px;
+}
+
+.navItem:hover {
+  color: #F53D49;
+}
