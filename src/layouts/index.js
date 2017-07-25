@@ -5,11 +5,13 @@ import Helmet from "react-helmet"
 
 import NavBar from './NavBar'
 import Hero from './Hero'
+import Section from './Section'
 
 import "../css/typography.css"
 import styles from "../css/styles.css"
 
 import hero from './../assets/tangotable-min.png'
+import scent from './../assets/scent.svg';
 
 export default class Template extends React.Component {
   static propTypes = {
@@ -28,6 +30,11 @@ export default class Template extends React.Component {
         />
         <NavBar />
         <Hero />
+        <Section
+          title="Specials"
+          icon={scent}
+          subText="We know you’re into deals, so try these out."
+        />
       </div>
     )
   }
