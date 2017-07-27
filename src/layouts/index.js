@@ -8,6 +8,7 @@ import Hero from './Hero'
 import Section from './Section'
 import Coupon from './../components/coupons'
 import ImageGrid from './../components/ImageGrid'
+import Contact from './../container/Contact'
 
 import "../css/typography.css"
 import styles from "../css/styles.css"
@@ -79,6 +80,9 @@ export default class Template extends React.Component {
         >
           <ImageGrid />
         </Section>
+        <Contact
+          scent={scent}
+        />
       </div>
     )
   }

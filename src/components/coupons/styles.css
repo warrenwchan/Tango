@@ -2,7 +2,7 @@
   width: 75vw;
   height: 30vh;
   padding: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 10%;
   position: relative;
   color: white;
   display: flex;
@@ -12,13 +12,14 @@
   font-family: sans-serif;
   text-decoration: none;
   background-size: cover;
+  border-radius: 15px;
 }
 
 .small {
   width: 35vw;
   height: 30vh;
   padding: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 10%;
   position: relative;
   color: white;
   display: flex;
@@ -28,6 +29,7 @@
   font-family: sans-serif;
   text-decoration: none;
   background-size: cover;
+  border-radius: 5px;
 }
 
 .big:hover {
