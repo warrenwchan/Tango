@@ -7,12 +7,14 @@ import NavBar from './NavBar'
 import Hero from './Hero'
 import Section from './Section'
 import Coupon from './../components/coupons'
+import ImageGrid from './../components/ImageGrid'
 
 import "../css/typography.css"
 import styles from "../css/styles.css"
 
 import hero from './../assets/tangotable-min.png'
 import scent from './../assets/scent.svg';
+import image1 from './../assets/tangotable-min.png';
 
 export default class Template extends React.Component {
   static propTypes = {
@@ -42,6 +44,7 @@ export default class Template extends React.Component {
               title="Suns out Búns out"
               desc="2pm - 5pm Get a free soda with a purchase of a bún for $10.95"
               onClick={() => (prompt("Coupon 1"))}
+              image={image1}
             />
             <Coupon
               size="small"
@@ -73,7 +76,9 @@ export default class Template extends React.Component {
           title="Favorites"
           icon={scent}
           subText="Try our top 10 most ordered."
-        />
+        >
+          <ImageGrid />
+        </Section>
       </div>
     )
   }
