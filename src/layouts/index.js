@@ -5,10 +5,10 @@ import Helmet from "react-helmet"
 
 import NavBar from './NavBar'
 import Hero from './Hero'
-import Section from './Section'
-import Coupon from './../components/coupons'
-import ImageGrid from './../components/ImageGrid'
-import Contact from './../container/Contact'
+import SpecialsContainer from './../container/SpecialContainer'
+import FavoriteContainer from './../container/FavoriteContainer'
+import FooterContainer from './../container/FooterContainer'
+import SectionSeparator from './../components/SectionSeparator'
 
 import "../css/typography.css"
 import styles from "../css/styles.css"
@@ -26,7 +26,7 @@ export default class Template extends React.Component {
     return (
       <div>
         <Helmet
-          title="Gatsby Default Starter"
+          title="Tango Tropical Grill"
           meta={[
             { name: "description", content: "Sample" },
             { name: "keywords", content: "sample, something" },
@@ -34,55 +34,17 @@ export default class Template extends React.Component {
         />
         <NavBar />
         <Hero />
-        <Section
-          title="Specials"
+        <SpecialsContainer
           icon={scent}
-          subText="We know you’re into deals, so try these out."
-        >
-          <div className="couponContain">
-            <Coupon
-              size="big"
-              title="Suns out Búns out"
-              desc="2pm - 5pm Get a free soda with a purchase of a bún for $10.95"
-              onClick={() => (prompt("Coupon 1"))}
-              image={image1}
-            />
-            <Coupon
-              size="small"
-              title="“Third Wheel Special”"
-              desc="Buy 2 Pho noodle bowls, Get 1 bowl free! From #60 - #67"
-              onClick={() => (prompt("Coupon 2"))}
-            />
-            <Coupon
-              size="small"
-              title="“Tea Time Special”"
-              desc="Free spring roll or free coke with purchase of main dish from 2pm - 5pm"
-              onClick={() => (prompt("Coupon 3"))}
-            />
-            <Coupon
-              size="small"
-              title="$3 meal size up"
-              desc="Add $3 to main dish for bubble tea or vietnamese ice coffee."
-              onClick={() => (prompt("Coupon 4"))}
-            />
-            <Coupon
-              size="small"
-              title="$4 meal size up"
-              desc="Add $4 to main dish for 4 Dumplings or Yam fries."
-              onClick={() => (prompt("Coupon 5"))}
-            />
-          </div>
-        </Section>
-        <Section
-          title="Favorites"
-          icon={scent}
-          subText="Try our top 10 most ordered."
-        >
-          <ImageGrid />
-        </Section>
-        <Contact
-          scent={scent}
+          image={image1}
         />
+        <SectionSeparator
+          text="Favorites"
+         />
+        <FavoriteContainer
+          icon={scent}
+        />
+        <FooterContainer />
       </div>
     )
   }

@@ -12,6 +12,7 @@ class Coupon extends Component {
       <a className={this.props.size} style={couponBG} onClick={this.props.onClick}>
         <h3 className="couponTitle">{this.props.title}</h3>
         <p className="couponDescription">{this.props.desc}</p>
+        <p className="couponAcception">*{this.props.acpt}*</p>
         <div className="cornerBox"></div>
       </a>
     )

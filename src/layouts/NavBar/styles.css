@@ -1,5 +1,5 @@
 .navBar {
-  width: 100vw;
+  width: 100%;
   position: absolute;
   top: 0;
 }
@@ -27,7 +27,7 @@
   color: white;
   text-decoration: none;
   margin: 25px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .navItem:hover {

@@ -2,7 +2,7 @@
   width: 75vw;
   height: 30vh;
   padding: 20px;
-  margin-bottom: 10%;
+  margin-bottom: 4%;
   position: relative;
   color: white;
   display: flex;
@@ -12,14 +12,13 @@
   font-family: sans-serif;
   text-decoration: none;
   background-size: cover;
-  border-radius: 15px;
 }
 
 .small {
-  width: 35vw;
+  width: 36vw;
   height: 30vh;
   padding: 20px;
-  margin-bottom: 10%;
+  margin-bottom: 4%;
   position: relative;
   color: white;
   display: flex;
@@ -29,7 +28,6 @@
   font-family: sans-serif;
   text-decoration: none;
   background-size: cover;
-  border-radius: 5px;
 }
 
 .big:hover {
@@ -46,6 +44,12 @@
 
 .couponDescription {
   text-align: center;
+  margin-bottom: 0px;
+}
+
+.couponAcception {
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 .cornerBox {

@@ -1,6 +1,6 @@
 .heroImageContainer {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,6 +9,7 @@
   background: linear-gradient(135deg, rgba(26,26,26,0.7) 0%,rgba(26,26,26,0.7) 100%), url("./../../assets/tangotable-min.png") no-repeat center; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc1a1a1a', endColorstr='#cc1a1a1a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .heroTitleContain {
