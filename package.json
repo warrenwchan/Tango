@@ -1,15 +1,13 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Tango Tropical Grill",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Warren Chan w.warrenchan@gmail.com",
   "dependencies": {
     "gatsby": "^1.0.1",
     "gatsby-link": "^1.0.1",
     "gatsby-plugin-react-helmet": "^1.0.1",
-    "react-fontawesome": "^1.6.1",
-    "react-google-map": "^3.0.1",
-    "react-google-maps-loader": "^3.0.1"
+    "react-fontawesome": "^1.6.1"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0"
