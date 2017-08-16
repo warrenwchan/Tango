@@ -6,8 +6,11 @@ import logo from './../../assets/tangologo.svg'
 
 const NavBar = () => (
   <div className="navBar">
+    <div className="mobileLogoContain">
+      <img className="mobileLogo" src={logo} alt="Tango Logo"/>
+    </div>
     <div className="navContain">
-      <div className="homeLogo">
+      <div>
         <Link to="/">
           <img className="navLogo" src={logo} alt="Tango Logo"/>
         </Link>

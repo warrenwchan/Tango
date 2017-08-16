@@ -40,7 +40,7 @@ class FooterContainer extends Component {
             />
             <ContactInfo
               contactIcon="instagram"
-              contactLink="https://www.facebook.com/TangoVietnameseRestaurant/"
+              contactLink="https://www.instagram.com/tangotropical/"
               contactInfo="Instagram"
             />
           </div>

@@ -4,6 +4,16 @@
   top: 0;
 }
 
+.mobileLogoContain {
+  display: flex;
+  justify-content: center;
+}
+
+.mobileLogo {
+  display: none;
+  width: 100px;
+}
+
 .navContain {
   margin: 0 auto;
   max-width: 75vw;
@@ -32,4 +42,14 @@
 
 .navItem:hover {
   color: #F53D49;
+}
+
+@media (max-width: 600px) {
+  .navContain {
+    display: none;
+  }
+
+  .mobileLogo {
+    display: block;
+  }
 }
