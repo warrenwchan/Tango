@@ -3,8 +3,8 @@ import PropTypes from "prop-types"
 import Link from "gatsby-link"
 import Helmet from "react-helmet"
 
-import NavBar from './NavBar'
-import Hero from './Hero'
+import NavBar from './../layouts/NavBar'
+import Hero from './../layouts//Hero'
 import SpecialsContainer from './../container/SpecialContainer'
 import FavoriteContainer from './../container/FavoriteContainer'
 import FooterContainer from './../container/FooterContainer'

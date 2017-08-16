@@ -4,8 +4,6 @@ import styles from './styles.css';
 import Section from './../../components/Section';
 import ContactInfo from './../../components/ContactInfo';
 
-import Map from './../../components/maps';
-
 class FooterContainer extends Component {
   render() {
 
