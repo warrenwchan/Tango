@@ -45,3 +45,15 @@
   color: #F53D49;
   border: 1px solid #F53D49;
 }
+
+/*---------- Mobile ----------*/
+
+@media (max-width: 600px) {
+  .heroTitleContain {
+    width: 80vw;
+  }
+
+  .heroButton {
+    padding: 15px 35px;
+  }
+}

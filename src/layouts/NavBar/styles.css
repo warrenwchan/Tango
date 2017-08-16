@@ -11,7 +11,8 @@
 
 .mobileLogo {
   display: none;
-  width: 100px;
+  width: 35vw;
+  padding-top: 35px;
 }
 
 .navContain {
@@ -43,6 +44,8 @@
 .navItem:hover {
   color: #F53D49;
 }
+
+/*---------- Mobile ----------*/
 
 @media (max-width: 600px) {
   .navContain {
